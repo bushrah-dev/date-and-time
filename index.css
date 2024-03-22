@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: silver;
+  }
+.container {
+    width: 21.87em;
+    display: grid;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    color: white;
+    align-items: center;
+    grid-template-columns: 8fr 4fr;
+    background: purple;
+    border-radius: 0.5em;
+}
+.clock-container {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    font-size: 3.75em;
+    margin-left: 0.2em;
+    border-radius: 0.1em;
+    padding: 0.2em 0;
+  }
+.date-container {
+    padding: 1em 0;
+    background: purple;
+    color: white;
+    text-align: center;
+    border-radius: 0.5em;
+  }
+.date-container span {
+    font-size: 2.5em;
+  }
